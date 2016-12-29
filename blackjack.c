@@ -56,8 +56,8 @@ while(newgame=='y')
 	{
 		playerbust=1;	
 		printf("BLACKJACK \n Congrats, YOU WIN !!!\n ");	
-     printf("#     # ####### #     # \n"    
-            " #   #  #     # #     # \n"
+                 printf("#     # ####### #     # \n"    
+                        " #   #  #     # #     # \n"
  			"  # #   #     # #     # \n"
 			"   #    #     # #     # \n"
    			"   #    #     # #     # \n"
@@ -66,12 +66,12 @@ while(newgame=='y')
   			
 				
 			printf(" #     # ### #     # \n"
-                   " #  #  #  #  ##    # \n"
-                   " #  #  #  #  # #   # \n"
-                   " #  #  #  #  #  #  # \n"
-                   " #  #  #  #  #   # # \n"
-                   " #  #  #  #  #    ## \n"
-                   "  ## ##  ### #     # \n");
+                               " #  #  #  #  ##    # \n"
+               		       " #  #  #  #  # #   # \n"
+                 	       " #  #  #  #  #  #  # \n"
+                               " #  #  #  #  #   # # \n"
+                               " #  #  #  #  #    ## \n"
+                               "  ## ##  ### #     # \n");
 		  			
 		win=1;
 	}
@@ -88,7 +88,7 @@ while(newgame=='y')
 				{
 					playerbust=1;
 					printf("you have %d : BUSTED\n", player);
-			    printf("#       #######  #####  ####### ######\n"
+			            printf("#       #######  #####  ####### ######\n"
 					   "#       #     # #     # #       #     # \n"
 					   "#       #     # #       #       #     # \n"
 					   "#       #     #  #####  #####   ######  \n"
@@ -103,8 +103,8 @@ while(newgame=='y')
 				else if(player==21)
 				{
 					printf("Congrats, YOU WIN !!!\n");	
-	 printf("#     # ####### #     # \n"    
-            " #   #  #     # #     # \n"
+	         printf("#     # ####### #     # \n"    
+                        " #   #  #     # #     # \n"
  			"  # #   #     # #     # \n"
 			"   #    #     # #     # \n"
    			"   #    #     # #     # \n"
@@ -112,7 +112,7 @@ while(newgame=='y')
   			"   #    #######  #####  \n");
   			
 				
-			printf(" #     # ### #     # \n"
+	    printf(" #     # ### #     # \n"
                    " #  #  #  #  ##    # \n"
                    " #  #  #  #  # #   # \n"
                    " #  #  #  #  #  #  # \n"
@@ -143,8 +143,8 @@ while(newgame=='y')
 			{
 				dealerbust=1;
 				printf("dealer has %d : DEALER BUSTED\n YOU WIN !!!\n", dealer);
-	 printf("#     # ####### #     # \n"    
-            " #   #  #     # #     # \n"
+	         printf("#     # ####### #     # \n"    
+                        " #   #  #     # #     # \n"
  			"  # #   #     # #     # \n"
 			"   #    #     # #     # \n"
    			"   #    #     # #     # \n"
@@ -152,7 +152,7 @@ while(newgame=='y')
   			"   #    #######  #####  \n");
   			
 				
-			printf(" #     # ### #     # \n"
+	    printf(" #     # ### #     # \n"
                    " #  #  #  #  ##    # \n"
                    " #  #  #  #  # #   # \n"
                    " #  #  #  #  #  #  # \n"
@@ -169,8 +169,8 @@ while(newgame=='y')
 		if(dealer<player)
 		{
 			printf("YOU WIN !!!\n");
-	 printf("#     # ####### #     # \n"    
-            " #   #  #     # #     # \n"
+	         printf("#     # ####### #     # \n"    
+                        " #   #  #     # #     # \n"
  			"  # #   #     # #     # \n"
 			"   #    #     # #     # \n"
    			"   #    #     # #     # \n"
@@ -178,7 +178,7 @@ while(newgame=='y')
   			"   #    #######  #####  \n");
   			
 				
-			printf(" #     # ### #     # \n"
+	    printf(" #     # ### #     # \n"
                    " #  #  #  #  ##    # \n"
                    " #  #  #  #  # #   # \n"
                    " #  #  #  #  #  #  # \n"
@@ -191,7 +191,7 @@ while(newgame=='y')
 			{
 				printf("dealer has %d \n",dealer);
 				printf("YOU LOSE...\n");
-				printf("#       #######  #####  ####### ######\n"
+			            printf("#       #######  #####  ####### ######\n"
 					   "#       #     # #     # #       #     # \n"
 					   "#       #     # #       #       #     # \n"
 					   "#       #     #  #####  #####   ######  \n"
